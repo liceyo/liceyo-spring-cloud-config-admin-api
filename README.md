@@ -42,3 +42,9 @@
 ## 服务自动上线
 
 > 新注册的服务可以被感知到，使用`/api/storage/services`接口可以得到所有服务列表。注意，新上线得服务默认是没有保存到文件的，需要手动保存。
+
+## License
+
+[MIT](https://github.com/liceyo/liceyo-spring-cloud-config-admin-api/blob/master/LICENSE)
+
+Copyright (c) 2019-present liceyo
