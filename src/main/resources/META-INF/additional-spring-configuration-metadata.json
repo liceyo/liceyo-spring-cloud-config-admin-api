@@ -1,0 +1,35 @@
+{
+  "properties": [
+    {
+      "name": "spring.cloud.config.admin.refresh-way",
+      "type": "java.lang.String",
+      "defaultValue": "http",
+      "description": "设置应用的配置刷新方式",
+      "sourceType": "com.liceyo.core.AdminProperties"
+    }, {
+      "name": "spring.cloud.config.admin.refresh-url",
+      "type": "java.lang.String",
+      "defaultValue": "/actuator/refresh",
+      "description": "设置应用的配置刷新接口",
+      "sourceType": "com.liceyo.core.AdminProperties"
+    }, {
+      "name": "spring.cloud.config.admin.application-info-file",
+      "type": "java.lang.String",
+      "defaultValue": "classpath:admin-application.txt",
+      "description": "设置配置文件内容",
+      "sourceType": "com.liceyo.core.AdminProperties"
+    },{
+      "name": "spring.cloud.config.admin.username",
+      "type": "java.lang.String",
+      "defaultValue": "classpath:admin-application.txt",
+      "description": "接口请求用户名",
+      "sourceType": "com.liceyo.core.AdminProperties"
+    },{
+      "name": "spring.cloud.config.admin.credentials",
+      "type": "java.lang.String",
+      "defaultValue": "classpath:admin-application.txt",
+      "description": "接口请求证书",
+      "sourceType": "com.liceyo.core.AdminProperties"
+    }
+  ]
+}
